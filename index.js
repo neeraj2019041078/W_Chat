@@ -43,7 +43,6 @@ io.on("connection",(socket)=>{
         console.log("user left");
     })
 })
-
 server.listen(port,()=>{
     console.log(`server listen at http://localhost:${port}`);
 })
